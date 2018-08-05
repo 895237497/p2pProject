@@ -1,55 +1,3 @@
-@colorWhite:#fff;
-@colorBlue:#00a8ff;
-@bgPath:"../../../static/images/";
-
-//辅助导航
-.navbar{
-    border-radius:0px;
-    margin-bottom:0px;
-}
-.navbar-inverse{
-    .navbar-brand{
-        color: @colorWhite;
-        font-size: 26px;
-        
-        span{
-            font-size: 18px;
-            margin-right: 10px;
-        }
-    }
-    
-    .navbar-nav{
-        &>li{
-            &>a{
-                color:@colorWhite;
-                
-                &:hover{
-                    color: @colorBlue;
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
-
-//主导航
-.navbar-default{
-
-    .navbar-nav{
-        &>li{
-            &>a{
-                line-height: 40px;
-                min-width: 80px;
-                font-size: 16px;
-                text-align: center;
-                
-                &:hover{
-                    background-color: #f0f0f0;
-                }
-            }
-        }
-    }
-}
 
 //三大特色
 #feature{
@@ -80,6 +28,11 @@
 #invest,#article{
     padding-right: 0px;
     padding-left: 0px;
+}
+@media all and (max-width: 620px){
+    .hide620{
+        display: none;
+    }
 }
 //公共的panel
 .panel{
@@ -127,23 +80,6 @@
                     float: right;
                     color: #999;
                 }
-            }
-        }
-    }
-}
-#footer{
-    background-color: #f8f8f8;
-    margin: 20px 0px;
-    padding-top: 30px;
-    .container{
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        div{
-            display: block;
-            img{
-                max-width: 100%;
             }
         }
     }

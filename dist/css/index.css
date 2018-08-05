@@ -17,6 +17,9 @@
   color: #00a8ff;
   text-decoration: underline;
 }
+.tooltip img {
+  width: 120px;
+}
 .navbar-default .navbar-nav > li > a {
   line-height: 40px;
   min-width: 80px;
@@ -44,6 +47,11 @@
 #article {
   padding-right: 0px;
   padding-left: 0px;
+}
+@media all and (max-width: 620px) {
+  .hide620 {
+    display: none;
+  }
 }
 .panel {
   -webkit-box-shadow: none;
@@ -84,20 +92,10 @@
   float: right;
   color: #999;
 }
-#footer {
+footer {
   background-color: #f8f8f8;
-  margin: 20px 0px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
-#footer .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-#footer .container div {
-  display: block;
-}
-#footer .container div img {
-  max-width: 100%;
+footer img {
+  max-width: 160px;
 }
