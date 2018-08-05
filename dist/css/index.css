@@ -28,6 +28,7 @@
 }
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #f0f0f0;
+  color: deepskyblue;
 }
 #feature .row div {
   background: url("../../../static/images/feature01.png") no-repeat left center;
@@ -87,6 +88,10 @@
 .panel-default .panel-body ul li {
   line-height: 26px;
   border-bottom: dotted 1px #ccc;
+}
+.panel-default .panel-body ul li:hover {
+  color: deepskyblue;
+  cursor: pointer;
 }
 .panel-default .panel-body ul li span {
   float: right;

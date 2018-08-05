@@ -1,4 +1,5 @@
-
+//引入header
+@import url("header.less");
 //三大特色
 #feature{
     .row{
@@ -75,7 +76,10 @@
             li{
                 line-height: 26px;
                 border-bottom: dotted 1px #ccc;
-                
+                &:hover{
+                    color: deepskyblue;
+                    cursor: pointer;
+                }
                 span{
                     float: right;
                     color: #999;
@@ -84,3 +88,5 @@
         }
     }
 }
+//引入页脚
+@import url("footer.less");

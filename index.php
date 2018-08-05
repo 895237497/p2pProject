@@ -97,7 +97,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row">张三</th>
+							<td scope="row">张三</td>
 							<td class="hide620">借我5000帮我渡过眼前的难关</td>
 							<td class="text-info">11.00%</td>
 							<td class="text-info">5000</td>
@@ -106,7 +106,7 @@
 							<td><button type="button" class="btn btn-sm btn-danger">查看</button></td>
 						</tr>
 						<tr>
-							<th scope="row">李四</th>
+							<td scope="row">李四</td>
 							<td class="hide620">江湖救急</td>
 							<td class="text-info">12.36%</td>
 							<td class="text-info">10000</td>
