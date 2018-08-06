@@ -48,6 +48,7 @@
 #article {
   padding-right: 0px;
   padding-left: 0px;
+  margin: 0px;
 }
 @media all and (max-width: 620px) {
   .hide620 {
