@@ -1,0 +1,73 @@
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-size: 26px;
+}
+.navbar-inverse .navbar-brand span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #00a8ff;
+  text-decoration: underline;
+}
+.tooltip img {
+  width: 120px;
+}
+.navbar-default .navbar-nav > li > a {
+  line-height: 40px;
+  min-width: 80px;
+  font-size: 16px;
+  text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #f0f0f0;
+  color: deepskyblue;
+}
+footer {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+}
+footer img {
+  max-width: 160px;
+}
+.container {
+  margin-top: 5px;
+}
+.container h4 {
+  margin: 10px 0;
+}
+.container .bid-state {
+  margin-bottom: 14px;
+}
+.container .bid-state > span {
+  margin-right: 30px;
+}
+.container .bid-state > div .btn {
+  padding: 6px 24px;
+}
+.container .bid-state > div .btn:focus {
+  outline: 0;
+  border-color: #adadad;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.container .table tr th {
+  color: #999;
+}
+.container .table tr td {
+  line-height: 50px;
+  padding: 0 8px;
+}
+@media all and (max-width: 620px) {
+  .sm-hide {
+    display: none;
+  }
+}

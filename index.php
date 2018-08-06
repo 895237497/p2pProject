@@ -6,6 +6,7 @@
 		<title></title>
 		<!--视口: 兼容移动端-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
 		<!--引入bootstrap核心样式-->
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
 		<!--引入图标字体-->
@@ -75,7 +76,7 @@
 
 		<!--投资信息列表-->
 		<div class="container" id="invest">
-			面板的结构
+			<!--面板的结构-->
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h1>进行中借款</h1>
@@ -120,7 +121,7 @@
 		</div>
 
 		<!--文章信息-->
-		<!--<div class="container" id="article">
+		<div class="container" id="article">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-xs-12">
 					<!--面板的结构-->
@@ -203,7 +204,7 @@
 					</div>
 				</div>
 			</div>
-		</div>-->
+		</div>
 		<?php
 		   include_once("./footer.html");
 		?>
