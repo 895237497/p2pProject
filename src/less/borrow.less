@@ -1,0 +1,41 @@
+@colorWhite: #fff;
+@import "header";
+@import "footer";
+//用户登录
+.panel-default{
+  .panel-heading{
+    color: @colorWhite;
+    font-size: 24px;
+    border: none;
+    border-radius: 0;
+  }
+}
+.borrow{
+  margin-top: 30px;
+  .panel-default{
+    ul{
+      padding-left: 10px;
+      li{
+        padding-left: 20px;
+        list-style: none;
+        background: url("../../../static/images/sequare.png") no-repeat left center;
+      }
+    }
+    button{
+      border-radius: 25px;
+      position: relative;
+      left: 50%;
+      margin-left: -41px;
+    }
+  }
+  .panel{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    .panel-body{
+      background-color: #F9F9F9;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "header";
+@import "footer";
+//用户注册
+.register{
+  margin-top: 10px;
+  .form-group{
+    &>.col-sm-10{
+      width: 350px;
+    }
+    button{
+      width: 200px;
+    }
+  }
+  .form-horizontal{
+    width: 486px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 400px){
+  section{
+    .form-group{
+      &>.col-sm-10{
+        width: 230px;
+      }
+    }
+  }
+}
