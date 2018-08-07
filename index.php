@@ -122,7 +122,7 @@
 
 		<!--文章信息-->
 		<div class="container" id="article">
-			<div class="row">
+			<div class="row" style="margin-left: 0px;margin-right: 0px;">
 				<div class="col-lg-6 col-md-6 col-xs-12">
 					<!--面板的结构-->
 					<div class="panel panel-default">
