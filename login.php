@@ -8,6 +8,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 		<!--引入bootstrap核心样式-->
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
+		<!--引入bootstrapvalidator核心文件-->
+        <link rel="stylesheet" type="text/css" href="lib/bootstrapvalidator/dist/css/bootstrapValidator.css"/>
 		<!--引入图标字体-->
 		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.min.css"/>	
 		<!--自定义样式-->
@@ -32,17 +34,17 @@
                         </div>
                         <div class="panel-body">
 
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" id="regForm">
                                 <div class="form-group">
                                     <label for="username" class="col-sm-2 control-label">用户名</label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="username">
+                                        <input type="text" class="form-control" name="username" id="username">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="col-sm-2 control-label">密&emsp;码</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="password">
+                                        <input type="password" class="form-control" name="password" id="password">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -74,6 +76,10 @@
     <script src="lib/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
     <!--引入bootstrap核心js库-->
     <script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--引入bootstrapvalidator js库-->
+    <script src="lib/bootstrapvalidator/dist/js/bootstrapValidator.js" type="text/javascript" charset="utf-8"></script>
     <!--自定义特效-->
     <script src="src/javascript/p2pEffects.js" type="text/javascript" charset="utf-8"></script>
+    <!--引入表单验证配置-->
+    <script src="src/JavaScript/formLoginValidator.js" type="text/javascript" charset="utf-8"></script>
 </html>
