@@ -1,7 +1,7 @@
 //文档准备就绪就初始化配置
 $(function() {
     //对那个表单做验证
-    $('#regForm')
+    $('#loginForm')
         //调用验证方法，验证方法中是一个配置对象
         .bootstrapValidator({
             message: 'This value is not valid', //表单出错的全局提示信息
@@ -54,13 +54,37 @@ $(function() {
             var bv = $form.data('bootstrapValidator');
             
             // 使用ajax发送提交表单的数据请求
-            var postUrl="";
+            var postUrl="api/checkLogin.php";
             var postData=$form.serialize();
             // $.post("提交的url地址",对象形式或者字符串拼接的数据,callback回调函数, 数据返回的类型)
             $.post(postUrl, postData ,function(result) {
-                console.log(result);
+                console.log("返回的结果是", result);
                 //根据ajax返回的结果处理前端的业务逻辑
-                //
+                 $("#regLoginModal .modal-title").text("用户登录提示");
+                if(result.isSuccess){
+                	//登录成功
+                	//alert(11);
+                	//设置模态框的内容
+                	$("#regLoginModal .modal-body").html("<span class='glyphicon glyphicon-ok'></span>"+result.msg+"等待 <span id='count'>5</span> 秒后自动跳转");
+                	//显示模态框
+                	$("#regLoginModal").modal("show");
+                	//倒计时效果的实现
+                	var num=5;
+                	var timeid=setInterval(function () {
+                		num--;
+                		$("#count").text(num);
+                		if(num==0){
+                			clearInterval(timeid);
+                			location.href="personal.php";
+                		}
+                	},1000);
+                }
+                else{
+                	//登录失败
+                	$("#regLoginModal .modal-body").html("<span class='glyphicon glyphicon-remove'></span>"+result.msg);
+                	$("#regLoginModal").modal("show");
+                	console.log(result.msg);
+                }
             }, 'json');
         });
 });

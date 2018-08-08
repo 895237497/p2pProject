@@ -34,7 +34,7 @@
                         </div>
                         <div class="panel-body">
 
-                            <form class="form-horizontal" id="regForm">
+                            <form class="form-horizontal" id="loginForm" method="post">
                                 <div class="form-group">
                                     <label for="username" class="col-sm-2 control-label">用户名</label>
                                     <div class="col-sm-10">
@@ -71,6 +71,23 @@
 		<?php
 		   include_once("./footer.html");
 		?>
+		<!--模态框-->
+		<div class="modal fade" id="regLoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">标题</h4>
+		      </div>
+		      <div class="modal-body">
+		                        内容
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">关闭窗口</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	</body>
     <!--引入jquery库-->
     <script src="lib/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
