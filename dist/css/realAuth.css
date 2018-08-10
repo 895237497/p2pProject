@@ -1,0 +1,54 @@
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-size: 26px;
+}
+.navbar-inverse .navbar-brand span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #00a8ff;
+  text-decoration: underline;
+}
+.tooltip img {
+  width: 120px;
+}
+.navbar-default .navbar-nav > li > a {
+  line-height: 40px;
+  min-width: 80px;
+  font-size: 16px;
+  text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #f0f0f0;
+  color: deepskyblue;
+}
+#mainContent {
+  margin-top: 15px;
+}
+#mainContent #realAuthForm input,
+#mainContent #realAuthForm select {
+  width: 260px;
+}
+#mainContent #IDcard .uploading {
+  height: 150px;
+  width: 180px;
+  border: 1px solid #ccc;
+}
+#mainContent #IDcard .uploading a {
+  padding-left: 30%;
+}
+footer {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+}
+footer img {
+  max-width: 160px;
+}

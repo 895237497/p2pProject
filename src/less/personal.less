@@ -1,25 +1,17 @@
 //引入头部
 @import url("header.less");
-
+//处理横向滚动条
+body{
+    overflow-x: hidden;
+}
 //定义个人中心样式
 #mainContent{
     margin-top: 15px;
-    .panel-body{
-        ul{
-            list-style: none;
-            li{
-                line-height: 26px;
-                font-size: 18px;
-                a{
-                    &:focus{
-                        font-weight: bold;
-                        color: orange;
-                    }
-                }
-            }
-        }
-    }
+    
     #rightCon{
+        #toggleMenu{
+            display: none;
+        }
         .panel-body{
             padding: 30px;
             .row:nth-of-type(1){
@@ -56,6 +48,29 @@
                 }
             }
         }
+    }
+}
+@media all and (max-width:768px){
+    #mainContent{
+        position: relative;
+        left:0px;
+        transition: all 1s ease-in-out;
+        min-height: 900px;
+        #leftMenu{
+            position: absolute;
+            left: 0px;
+        }
+        #rightCon{
+            #toggleMenu{
+                display: inline-block;
+            }
+            position: absolute;
+            right: -50%;
+        }
+    }
+    //菜单收起的状态
+    #mainContent.active{
+        left:-50%;
     }
 }
 //引入页脚
