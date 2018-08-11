@@ -37,14 +37,6 @@
 #mainContent #realAuthForm select {
   width: 260px;
 }
-#mainContent #IDcard .uploading {
-  height: 150px;
-  width: 180px;
-  border: 1px solid #ccc;
-}
-#mainContent #IDcard .uploading a {
-  padding-left: 30%;
-}
 footer {
   background-color: #f8f8f8;
   padding-top: 20px;

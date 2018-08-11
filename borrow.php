@@ -30,7 +30,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" style="background-color:#40d47e;">信用贷</div>
                             <div class="panel-body">
-                                <p style="font-size: 16px">可借金额 ¥ <span>2,000.00</span></p>
+                                <p style="font-size: 16px">可借金额 &yen; <span>2,000.00</span></p>
                                 <p><a href="#">申请条件</a></p>
                                 <p class="help-block">仅限成都地区</p>
                                 <ul>
@@ -38,7 +38,7 @@
                                     <li>身份认证</li>
                                     <li>视频认证</li>
                                 </ul>
-                                <button type="button" class="btn btn-info">立刻申请</button>
+                                <button type="button" class="btn btn-info"><a href="borrow_apply.php">立刻申请</a></button>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" style="background-color:#ec7e20;">车易贷</div>
                             <div class="panel-body">
-                                <p style="font-size: 16px">可借金额 ¥ <span>2,000.00</span></p>
+                                <p style="font-size: 16px">可借金额 &yen;<span>2,000.00</span></p>
                                 <p><a href="#">申请条件</a></p>
                                 <p class="help-block">仅限成都地区</p>
                                 <ul>
@@ -54,7 +54,7 @@
                                     <li>身份认证</li>
                                     <li>视频认证</li>
                                 </ul>
-                                <button type="button" class="btn btn-info">立刻申请</button>
+                                <button type="button" class="btn btn-info"><a href="borrow_apply.php">立刻申请</a></button>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" style="background-color:#2ca2ee;">房易贷</div>
                             <div class="panel-body">
-                                <p style="font-size: 16px">可借金额 ¥ <span>2,000.00</span></p>
+                                <p style="font-size: 16px">可借金额&yen; <span>2,000.00</span></p>
                                 <p><a href="#">申请条件</a></p>
                                 <p class="help-block">仅限成都地区</p>
                                 <ul>
@@ -70,7 +70,7 @@
                                     <li>身份认证</li>
                                     <li>视频认证</li>
                                 </ul>
-                                <button type="button" class="btn btn-info">立刻申请</button>
+                                <button type="button" class="btn btn-info"><a href="borrow_apply.php">立刻申请</a></button>
                             </div>
                         </div>
                     </div>

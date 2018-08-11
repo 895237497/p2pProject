@@ -96,38 +96,14 @@
 						        		<input id="address" class="form-control" name="address" type="text" style="max-width: 100%;width:500px;">
 						        	</div>
 						        </div>
-						        <div class="form-group">
-						        	<label class="col-sm-4  control-label" for="address">身份证照片</label>
-					        		<div class="col-sm-8" id="IDcard">
-					        			<p class="text-help text-primary">请点击“选择图片”,选择证件的正反两面照片。</p>
-					        			<div class="idCardItem">
-					        				<div>
-					        					<div class="uploading">
-					        					    <a href="#">上传正面</a>
-					        					</div>
-					        				</div>
-					        				<img alt="" src="" class="uploadImg" id="uploadImg1">
-					        				<input type="hidden" value="" name="papersimg01">
-					        			</div>
-					        			<div class="idCardItem">
-					        				<div>
-					        					<div class="uploading">
-					        					    <a href="#">上传反面</a>
-					        					</div>
-					        				</div>
-					        			<a href="#">查看样板</a>
-					        				
-					        				<img alt="" src="" class="uploadImg" id="uploadImg2">
-					        				<input type="hidden" value="" name="papersimg02">
-					        			</div>
 
-						        </div>
+					        		
 						        <div class="form-group">
 						        	<button type="submit" id="asubmit" class="btn btn-primary col-sm-offset-4" data-loading-text="正在提交"><i class="icon-ok"></i> 提交认证</button>
 						        </div>
 							</fieldset>
 						</form>
-					</div>
+
 				</div>
         	</div>
         </div>

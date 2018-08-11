@@ -60,6 +60,9 @@ footer img {
   left: 50%;
   margin-left: -41px;
 }
+.borrow .panel-default button a {
+  color: #fff;
+}
 .borrow .panel {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
