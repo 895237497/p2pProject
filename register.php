@@ -60,6 +60,12 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <label for="realname" class="col-sm-2 control-label">个人学历</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="education" id="education" placeholder="请输入您的学历">
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <label for="tel-num" class="col-sm-2 control-label">手机号码</label>
                                     <div class="col-sm-10">
                                         <input type="tel" class="form-control" name="phone" id="tel-num" placeholder="请输入手机号码">

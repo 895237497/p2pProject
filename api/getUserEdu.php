@@ -14,7 +14,8 @@
      ['name'=>"硕士", 'value'=>0],
      ['name'=>"本科", 'value'=>0],
      ['name'=>"大专", 'value'=>0],
-     ['name'=>"高中/中专", 'value'=>0],
+     ['name'=>"高中", 'value'=>0],
+     ['name'=>"中专", 'value'=>0],
      ['name'=>"初中", 'value'=>0],
      ['name'=>"小学", 'value'=>0]
    ];
@@ -35,14 +36,17 @@
 	  else if($row["education"]=="大专"){
    	  	$eduDataJson[3]["value"]+=1;
    	  }
-	  else if($row["education"]=="高中/中专"){
+	  else if($row["education"]=="高中"){
    	  	$eduDataJson[4]["value"]+=1;
    	  }
-	  else if($row["education"]=="初中"){
+	  else if($row["education"]=="中专"){
    	  	$eduDataJson[5]["value"]+=1;
    	  }
-	  else if($row["education"]=="小学"){
+	  else if($row["education"]=="初中"){
    	  	$eduDataJson[6]["value"]+=1;
+   	  }
+	  else if($row["education"]=="小学"){
+   	  	$eduDataJson[7]["value"]+=1;
    	  }
    }
    

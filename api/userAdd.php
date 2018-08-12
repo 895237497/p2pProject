@@ -7,9 +7,10 @@
    $realname=$_POST["realname"];
    $phone=$_POST["phone"];
    $sex=$_POST["sex"];
+   $education=$_POST["education"];
    
    //构造sql语句
-   $sqlStr="insert into userinfo(username,password,realname,phone,sex) value('$username','$password','$realname','$phone','$sex')";
+   $sqlStr="insert into userinfo(username,password,realname,phone,sex,education) value('$username','$password','$realname','$phone','$sex','$education')";
    //执行sql语句
    $result=mysqli_query($conn, $sqlStr);
    //根据结果执行,返回json对象给前端

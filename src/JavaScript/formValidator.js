@@ -42,15 +42,12 @@ $(function() {
                     }
                 },
                 //密码验证
-                password: {
+                education: {
                     validators: {
                         notEmpty: {
                             message: '密码必须填写'
                         },
-                        stringLength: {
-                            min: 6,
-                            message: '密码长度必须大于6位'
-                        }
+                        
                     }
                 },
                 //确认密码验证
